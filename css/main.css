@@ -1,0 +1,44 @@
+body {
+	background-image: url("../img/stars.jpg");
+	position: relative;
+	background-size: cover;
+	-webkit-animation: spinX 1s;
+    /*animation: spinX 3s infinite;*/
+}
+
+div {
+	text-align: center;
+}
+h1 {
+	color: #fff;
+}
+#signName {
+	width: 20%;
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+button {
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 25px;
+	border-radius: 10px;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+button:hover {
+	background-color: #fff;
+}
+/*#icon {
+	width: 200px;
+	height: 200px;
+}*/
+#attributes {
+	margin-top: 15px;
+	color: #fff;
+	font-size: 20px;
+}
